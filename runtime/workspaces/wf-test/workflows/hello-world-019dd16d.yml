@@ -1,0 +1,11 @@
+id: 019dd16d-1171-7250-8db9-1b72c1e2ef4c
+name: hello-world
+description: A simple hello-world webhook-triggered workflow with 1 step
+trigger:
+  type: webhook
+steps:
+- type: agent_step
+  name: step
+  skill: hello-world-skill
+created: 2026-04-28T00:11:19.281670+00:00
+updated: 2026-04-28T00:11:19.281670+00:00
